@@ -1,25 +1,23 @@
 {
   "basics": {
-    "name": "Molly Maluhia",
+    "name": "Adrienne Kaneshiro",
     "label": "Student",
     "picture": "https://github.com/kambergjohnson.png",
-    "email": "molly@hawaii.edu",
-    "phone": "808-333-4444",
-    "website": "https://mmaluhia.github.io",
-    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawaii. I expect to graduate in Spring, 2024.",
-    "location": { "address": "", "postalCode": "96822", "city": "Honolulu", "countryCode": "USA", "region": "Hawaii" },
+    "email": "amkanesh@hawaii.edu",
+    "phone": "808-206-6119",
+    "website": "https://amkanesh.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawai'i. I expect to graduate in Spring, 2025.",
+    "location": { "address": "", "postalCode": "96744", "city": "Kaneohe", "countryCode": "USA", "region": "Hawaii" },
     "profiles": [
-      { "network": "github", "username": "mmaluhia", "url": "http://github.com/changeme" },
-      { "network": "linkedin", "username": "mollymaluhia", "url": "http://linkedin.com/in/changeme" },
-      { "network": "twitter", "username": "mollymal", "url": "http://twitter.com/changeme" },
-      { "network": "instagram", "username": "molly", "url": "http://instagram.com/changeme" }
+      { "network": "github", "username": "amkanesh", "url": "http://github.com/amkanesh" },
+      { "network": "linkedin", "username": "adriennekaneshiro", "url": "https://www.linkedin.com/in/adrienne-kaneshiro-1571bb262/" }
     ]
   },
   "interests": [
-    { "name": "Interactive media" },
-    { "name": "Neuromorphic Computing" },
-    { "name": "Quantum Computing" },
-    { "name": "Robotics" },
+    { "name": "Network Engineering" },
+    { "name": "Graphic Design" },
+    { "name": "Japanese Language and Culture" },
+    { "name": "Sociology" },
     { "name": "3D Graphics" }
   ],
   "skills": [
@@ -34,10 +32,10 @@
   ],
   "education": [
     {
-      "institution": "University of Hawaii, Honolulu, HI",
-      "area": "Computer Science (expected Spring, 2018)",
+      "institution": "University of Hawai'i, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
       "studyType": "B.S.",
-      "startDate": "2013-09-01",
+      "startDate": "2021-09-01",
       "endDate": "Present",
       "courses": [
       ]
@@ -45,33 +43,21 @@
   ],
   "work": [
     {
-      "company": "UH Manoa Board of Publications",
-      "position": "Web Developer",
-      "website": "",
-      "startDate": "2015-08-01",
+      "company": "UH Manoa Outreach College",
+      "position": "Interchanger",
+      "website": "https://www.outreach.hawaii.edu/",
+      "startDate": "2022-06-01",
       "endDate": "Present",
-      "summary": "Head of online presence for Ka Leo",
+      "summary": "Facilitate conversation and provide English practice for foreign students",
       "highlights": [
-        "Maintain, update, and oversee official college newspaper website",
-        "Drive, design and build student-community projects for UH Manoa"
-      ]
-    },
-    {
-      "company": "UH Information Technology Services",
-      "position": "Help Desk Consultant",
-      "website": "http://www.hawaii.edu/its/",
-      "startDate": "2015-01-01",
-      "endDate": "2016-03-15",
-      "summary": "",
-      "highlights": [
-        "Troubleshoot software, hardware and networking issues over the phone",
-        "Answer phone and email responses to the ITS Help Desk"
+        "Encourage English language learning by utlizing worksheets",
+        "Gain experience and cross-cultural understanding with those from foreign countries"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Center for Renewable Energy and Island Sustainability",
+      "organization": "O'ahu SPCA",
       "website": "http://manoa.hawaii.edu/reis",
       "position": "Software Developer",
       "startDate": "2016-01-01",
@@ -98,10 +84,10 @@
   ],
   "awards": [
     {
-      "title": "B+ Scholarship",
-      "date": "2013-Present",
+      "title": "UH Manoa Academic Merit Scholarship",
+      "date": "2021-Present",
       "awarder": "State of Hawaii",
-      "summary": "Scholarships awarded to incoming freshmen and continuing students who complete a rigorous high school curriculum with a minimum overall GPA of 3.0 at a Hawai'i public school."
+      "summary": ""
     },
     {
       "title": "First place",
