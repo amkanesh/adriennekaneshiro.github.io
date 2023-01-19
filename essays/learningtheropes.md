@@ -9,7 +9,7 @@ labels:
 
 ---
 
-<p style="text-align:center;"><img width="300px" src="https://www.springboard.com/blog/wp-content/uploads/2022/03/how-to-learn-programming-from-scratch-768x768.png"></p>
+<p style="text-align:center;"><img width="400px" src="https://img.freepik.com/free-vector/programmers-using-javascript-programming-language-computer-tiny-people-javascript-language-javascript-engine-js-web-development-concept_335657-2412.jpg?w=1480&t=st=1674117563~exp=1674118163~hmac=ce59fcd6137dbf04bff0fe9a8919915a83a2af3b4b2fdca54daa90cccae3192b"></p>
 
 ## Not So Unfamiliar After All
 These days, it can seem like there are as many programming languages as there are spoken languages in the world—quite the daunting challenge for anyone wanting to get into programming. However, while the prospect of learning all these different languages might have scared me a few years ago, further inspection reveals more similarities than differences. Oftentimes programming languages share common histories and syntax, much like how English derived much of its vocabulary and grammar from things like French or German. This is how I felt about learning JavaScript, a high-level language that I had previously no experience with.
