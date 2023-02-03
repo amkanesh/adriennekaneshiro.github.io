@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://ochimusyadrive.com/wp-content/uploads/2017/12/aa9d0f5b4226cd8fdd94309cd937d04bc2a5380f_hq.jpg
+image: <src="https://ochimusyadrive.com/wp-content/uploads/2017/12/aa9d0f5b4226cd8fdd94309cd937d04bc2a5380f_hq.jpg">
 title: "Japan Wizards Video"
 date: 2019
 published: true
@@ -16,8 +16,8 @@ As part of the Japan Wizards competition, a state-wide competition on Japanese l
 ## Role and Responsibilities
 The video footage itself was shot by my brother, but a surprising amount of the work lay in splicing it all together into one cohesive narrative while keeping it under a minute in length. My teammates and I worked together to create a script, and we all took part in acting it out. Here’s a few shots from the video, where I’m playing the part of the wasteful Westerner taking about 20 sheets of paper towel just to wipe their hands. 
 
-<img class="img-fluid" width="400px" src="https://github.com/amkanesh/amkanesh.github.io/blob/21813229d1c929005d995a49c2c03b93a93b282f/img/wizards/Screenshot_20230202_082056.png">
-<img class="img-fluid" width="400px" src="https://github.com/amkanesh/amkanesh.github.io/blob/21813229d1c929005d995a49c2c03b93a93b282f/img/wizards/Screenshot_20230202_082221.png">
+<img class="img-fluid" width="400px" src="../img/wizards/Screenshot_20230202_082056.png">
+<img class="img-fluid" width="400px" src="../img/wizards/Screenshot_20230202_082221.png">
 
 ## The Takeaways
 I definitely learned about the challenges of acting. And also not to underestimate the task of video editing. It proved surprisingly difficult to keep things within a time limit without looking forced or choppy. I also learned how to use video editing software as well as what transitions to use to change between scenes smoothly. Most importantly, though, I was reacquainted with the power of persistence. As with any new skill, there is a bit of a learning curve involved. It turns out for something like video editing, depending on your program, that learning curve can be quite high. 
