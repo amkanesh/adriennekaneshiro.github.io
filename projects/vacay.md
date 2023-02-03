@@ -2,27 +2,26 @@
 layout: project
 type: project
 image: img/vacay/vacay-square.png
-title: "Vacay"
-date: 2015
+title: "White tern research"
+date: 2019
 published: true
 labels:
-  - Javascript
-  - Meteor
-  - MongoDB
-  - GitHub
-summary: "A responsive web application for travel planning that my team developed in ICS 415."
+  - Research
+  - R
+summary: "A research project my team created concerning white terns."
 ---
 
 <img class="img-fluid" src="../img/vacay/vacay-home-page.png">
 
-Vacay is a web application that I helped create as a team project in ICS 415, Spring 2015. The project helped me learn how to design and implement a responsive web site.
+## Overview
 
-Vacay is implemented using [Meteor](http://meteor.com), a JavaScript application platform. Within two weeks, we created a website that implements several types of reservations including flights, hotels, and car rentals.
+During the summer of 2019, I decided to get an intro to the world of research projects by starting one with a friend. After much deliberation, we finally found a topic: birds. That is, sea birds — the white terns that squawk loudly over the downtown skyline, their presence at odds with the heavy human activity all around. We would study the effects of environmental factors (e.g. temperature, humidity, and wind speed) on the birds’ feeding rate.
 
-In this project I gained experience with full-stack web application design and associated technologies, including [MongoDB](http://mongodb.com) for database storage, the [Twitter Bootstrap](http://getbootstrap.com/) CSS Framework for the user interface, and Javascript for both client and server-side programming. 
+## Role and Responsibilities
 
-Here is some example code to illustrate Simple Schema use:
+Together with my partner, we looked at data gained from cameras tracking a specific nest. We used this data, collected over several months, to find any trends or patterns in accordance to the weather conditions at the time. I also then helped to create the design of the final project board.
 
-{% gist 9defa1fb3f4eb593ba5fa9eacedca960 %}
- 
-Source: <a href="https://github.com/theVacay/vacay">theVacay/vacay</a>
+## The Takeaways
+
+From this experience, I gained familiarity with working with large datasets and figuring out how to analyze them. We used R to find trends and how likely it was that they fit the data, giving me some exposure to the program. I also gained insight into graphic design for posters, and I learned through trial and error how to make a layout that was appealing to viewers but also readable.
+
