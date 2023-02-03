@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/cotton/cotton-square.png
+image: https://ochimusyadrive.com/wp-content/uploads/2017/12/aa9d0f5b4226cd8fdd94309cd937d04bc2a5380f_hq.jpg
 title: "Japan Wizards Video"
 date: 2019
 published: true
