@@ -23,11 +23,11 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "Java", "Javascript", "Assembly", "Common Lisp" ]
+      "keywords": [ "C", "C++", "C#", "Java", "Javascript" ]
     },
     {
       "name": "Toolsets/OS",
-      "keywords": [ "MacOS", "Ubuntu", "Git/GitHub", "g++", "TI LaunchPad" ]
+      "keywords": [ "Windows", "Ubuntu", "Git/GitHub"]
     }
   ],
   "education": [
@@ -58,27 +58,13 @@
   "volunteer": [
     {
       "organization": "O'ahu SPCA",
-      "website": "http://manoa.hawaii.edu/reis",
-      "position": "Software Developer",
-      "startDate": "2016-01-01",
-      "endDate": "Present",
-      "summary": "Lead developer for weather sensing project",
+      "website": "https://oahuspca.org/",
+      "position": "Volunteer",
+      "startDate": "2016-06-01",
+      "endDate": "2016-07-01",
+      "summary": "Assist workers + other volunteers in caring for cats at the shelter",
       "highlights": [
-        "Design firmware for distributed weather sensor network",
-        "Maintain custom data collection and storage infrastructure"
-      ]
-    },
-    {
-      "organization": "",
-      "website": "",
-      "position": "Professional organization involvement",
-      "startDate": "",
-      "endDate": "",
-      "summary": "",
-      "highlights": [
-        "Chair, ACM Manoa, 2016-Present",
-        "Member, IEEE Student Branch, 2014-Present",
-        "Webmaster/IT Officer, IEEE Student Branch, UH Manoa, 2012-2013"
+        "Cooperating to tackle cleaning substantial amount of equipment"
       ]
     }
   ],
@@ -87,13 +73,13 @@
       "title": "UH Manoa Academic Merit Scholarship",
       "date": "2021-Present",
       "awarder": "State of Hawaii",
-      "summary": ""
+      "summary": "A 4-year scholarship awarded to incoming freshman who have at least a 3.8 GPA upon applying to UH Manoa."
     },
     {
       "title": "First place",
-      "date": "2015",
-      "awarder": "University of Hawaii Micromouse Competition",
-      "summary": "My team won first place in 2015.  See my portfolio site for more details."
+      "date": "2019",
+      "awarder": "Japan Wizards Competition",
+      "summary": "My team won first place in 2019. This was a statewide competition that tested participants' trivia and knowledge of Japanese culture, langauge, government, history, etc."
     }
   ],
   "references": [
