@@ -30,7 +30,7 @@ This was my introduction to more complex Java objects and classes. The map was b
 ```cpp
 boolean hit(MapObject enemy, Projectile projectile) { //boolean to determine if a projectile has collided with an enemy
    boolean collided; //boolean to report collisions 
-   float enemyDistance = sqrt(sq(enemy.xPos - projectile.projXPos) + sq(enemy.yPos - projectile.projYPos)); //calculates distance from proje 350 
+   float enemyDistance = sqrt(sq(enemy.xPos - projectile.projXPos) + sq(enemy.yPos - projectile.projYPos)); //calculates distance from projectile 
    if (enemyDistance < enemyDiameter/2 + diameter/2) { //big radius + small radius 
      enemyHP = enemyHP - 1; //decrease enemy HP by one upon hit  
      collided = true; //projectile and enemy have collided 
