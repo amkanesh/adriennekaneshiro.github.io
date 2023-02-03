@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/wizards/mottainai.jpg
+image: img/wizards/mottainai-1.jpg
 title: "Japan Wizards Video"
 date: 2019
 published: true
