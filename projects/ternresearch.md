@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: https://github.com/amkanesh/amkanesh.github.io/blob/4b6d852583aab5477400f416c9ed64cd3a576475/img/research/691881.jpg
+image: img/research/691881.jpg
 title: "White tern research"
 date: 2019
 published: true
@@ -11,7 +11,7 @@ labels:
 summary: "A research project my team created concerning white terns."
 ---
 
-<img class="img-fluid" width="600px" src="https://github.com/amkanesh/amkanesh.github.io/blob/4b6d852583aab5477400f416c9ed64cd3a576475/img/research/691885.jpg">
+<img class="img-fluid" width="600px" src="../img/research/691885.jpg">
 
 ## Overview
 
