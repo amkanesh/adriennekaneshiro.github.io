@@ -22,7 +22,7 @@ In practice, pure HTML/CSS is like using a thread and needle, while Bootstrap is
 
 Bootstrap certainly does deliver a lot of good things to the table. Much like a sewing machine, it can cut down the time to make a website by a drastic amount, which is useful when you’re on a tight deadline. Plus, its default templates are easy on the eyes and match the sleek, modern aesthetic popular amongst big-name websites today. Many popular sites have utilized Bootstrap, showing its use in the industry. 
 
-<img width=25% class="rounded center" src="https://www.codica.com/static/face4cdad1307ef4ea0561aade4f7691/ac748/Etsy_3cf846dffb.jpg">
+![Screenshot of Etsy's front page.](https://www.codica.com/static/face4cdad1307ef4ea0561aade4f7691/ac748/Etsy_3cf846dffb.jpg)
 
 *Screenshot of Etsy, a site made with Bootstrap.*
 
