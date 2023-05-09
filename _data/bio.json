@@ -15,7 +15,6 @@
   },
   "interests": [
     { "name": "Network Engineering" },
-    { "name": "Graphic Design" },
     { "name": "Japanese Language and Culture" },
     { "name": "Sociology" },
     { "name": "3D Graphics" }
@@ -23,7 +22,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "C#", "Java", "Javascript" ]
+      "keywords": [ "C", "C++", "C#", "Java", "Javascript", "HTML", "CSS", "Meteor", "React", "MongoDB" ]
     },
     {
       "name": "Toolsets/OS",
