@@ -1,12 +1,12 @@
 /* Custom Theme: modifies the default theme have a darker palette and changes the fonts. */
 
-@import url("https://fonts.googleapis.com/css?family=Gothic+A1|Archivo+Black|Source+Code+Pro|Bitter:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1|Archivo+Black|Source+Code+Pro|Inter");
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
   --tf-accent: #F0803C;
   --tf-blue: #ACE0EC;
-  --bs-font-sans-serif: "Bitter", sans-serif;
+  --bs-font-sans-serif: "Inter", sans-serif;
   --bs-link-color: var(--tf-accent);
   --tf-pill-bg: var(--bs-black);
   --tf-icon-fill: var(--tf-accent);
