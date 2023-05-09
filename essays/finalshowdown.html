@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="The Final Showdown | Adrienne Kaneshiro | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/amkanesh.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Adrienne Kaneshiro | Professional Portfolio">
+    <meta property="og:url" content="https://amkanesh.github.io/essays/finalshowdown.html">
+    <meta property="og:title" content="The Final Showdown | Adrienne Kaneshiro | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/amkanesh.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>The Final Showdown | Adrienne Kaneshiro | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Adrienne Kaneshiro</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">The Final Showdown</h1>
+  <span class="date">27 Apr 2023</span>
+  <hr>
+  <div class="text-center p-4">
+  <img width="200px" src="https://media.istockphoto.com/id/148771691/vector/cartoon-boxing-gloves.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=uShuIGwuiBMj8KlcXG3kRuzjSb2T3AcO5aWXZETmzB8=" />
+</div>
+
+<h2 id="in-the-ring">In the Ring</h2>
+<p>Coding, I’ve come to realize, is like a boxing match.</p>
+
+<p>You enter the ring—by opening your IDE of choice—and square up against your opponent. This should be easy, you think. It’s just a landing page. You’re confident in your ability to tackle this task until you render the page and bam, your opponent blindsides you with an inexplicable blank page and 9 errors in your browser console! Suddenly, you aren’t so confident anymore, and this supposedly simple landing page is quickly turning into a nightmare of additional problems.</p>
+
+<p>However, there are tools to help you out: enter design patterns.</p>
+
+<h2 id="aiming-for-victory">Aiming for Victory</h2>
+
+<p>Design patterns can be thought of as a way to counter your opponent (i.e. your application) in the ring. They’re techniques to solve common problems in software engineering. Running with our boxing metaphor, it’s akin to hiring a coach to teach you how to handle different types of blows your opponent throws at you.</p>
+
+<p>I learned firsthand the convenience and importance of design patterns when designing my own application to host recipes, even if I wasn’t aware they were design patterns at the time.</p>
+
+<p>One type of design pattern used in this application is the Singleton pattern. This essentially creates a global variable of a class that can be used wherever in the application. This was used to create an instance of the collection of user profiles in my application.</p>
+
+<p>Here is an excerpt from the code that shows the ProfilesCollection class being exported as a single instance.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export const Profiles = new ProfilesCollection();
+</code></pre></div></div>
+<p>This design pattern allows clients to modify this collection (which is managed by the ProfilesCollection class) by invoking various methods on it. For example, it enables clients to update or edit their profile information by editing some of the information contained in the collection.</p>
+
+<p>Another design pattern used in my application is the Module pattern. This enables easy separation and organization of your code by splitting it into smaller, reusable pieces. To use this pattern, all you need to do is write whatever methods necessary for your task in a file, then export the necessary methods. Files outside of this one won’t be able to see any variables declared within that file, since those variables would be considered private.</p>
+
+<p>This has  the advantage of being versatile and able to be applied to a wide variety of problems, with only minor modifications. Additionally, it helps to provide a layer of security to your applications. In the case of the profile page, you don’t want your clients to necessarily access/mess around with what can be sensitive information, so a module pattern that ensures that functions and data are kept private is very useful.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>

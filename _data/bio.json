@@ -1,0 +1,89 @@
+{
+  "basics": {
+    "name": "Adrienne Kaneshiro",
+    "label": "Student",
+    "picture": "https://github.com/amkanesh.png",
+    "email": "amkanesh@hawaii.edu",
+    "phone": "808-206-6119",
+    "website": "https://amkanesh.github.io",
+    "summary": "I am studying for a B.S. in Computer Science in the Department of Information and Computer Sciences at the University of Hawai'i. I expect to graduate in Spring, 2025.",
+    "location": { "address": "", "postalCode": "96744", "city": "Kaneohe", "countryCode": "USA", "region": "Hawaii" },
+    "profiles": [
+      { "network": "github", "username": "amkanesh", "url": "http://github.com/amkanesh" },
+      { "network": "linkedin", "username": "adriennekaneshiro", "url": "https://www.linkedin.com/in/adrienne-kaneshiro-1571bb262/" }
+    ]
+  },
+  "interests": [
+    { "name": "Network Engineering" },
+    { "name": "Japanese Language and Culture" },
+    { "name": "Sociology" },
+    { "name": "3D Graphics" }
+  ],
+  "skills": [
+    {
+      "name": "Languages and Frameworks",
+      "keywords": [ "C", "C++", "C#", "Java", "Javascript", "HTML", "CSS", "Meteor", "React", "MongoDB" ]
+    },
+    {
+      "name": "Toolsets/OS",
+      "keywords": [ "Windows", "Ubuntu", "Git/GitHub"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University of Hawai'i, Honolulu, HI",
+      "area": "Computer Science (expected Spring, 2025)",
+      "studyType": "B.S.",
+      "startDate": "2021-09-01",
+      "endDate": "Present",
+      "courses": [
+      ]
+    }
+  ],
+  "work": [
+    {
+      "company": "UH Manoa Outreach College",
+      "position": "Interchanger",
+      "website": "https://www.outreach.hawaii.edu/",
+      "startDate": "2022-06-01",
+      "endDate": "Present",
+      "summary": "Facilitate conversation and provide English practice for foreign students",
+      "highlights": [
+        "Encourage English language learning by utlizing worksheets",
+        "Gain experience and cross-cultural understanding with those from foreign countries"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "O'ahu SPCA",
+      "website": "https://oahuspca.org/",
+      "position": "Volunteer",
+      "startDate": "2016-06-01",
+      "endDate": "2016-07-01",
+      "summary": "Assist workers + other volunteers in caring for cats at the shelter",
+      "highlights": [
+        "Cooperating to tackle cleaning substantial amount of equipment"
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "UH Manoa Academic Merit Scholarship",
+      "date": "2021-Present",
+      "awarder": "State of Hawaii",
+      "summary": "A 4-year scholarship awarded to incoming freshman who have at least a 3.8 GPA upon applying to UH Manoa."
+    },
+    {
+      "title": "First place",
+      "date": "2019",
+      "awarder": "Japan Wizards Competition",
+      "summary": "My team won first place in 2019. This was a statewide competition that tested participants' trivia and knowledge of Japanese culture, language, government, history, etc."
+    }
+  ],
+  "references": [
+    {
+      "name": "Available upon request"
+    }
+  ]
+}

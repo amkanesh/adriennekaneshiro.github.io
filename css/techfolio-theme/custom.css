@@ -1,0 +1,44 @@
+/* Custom Theme: modifies the default theme have a darker palette and changes the fonts. */
+
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1|Archivo+Black|Source+Code+Pro|Inter");
+
+/* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
+:root {
+  --tf-accent: #F0803C;
+  --tf-blue: #ACE0EC;
+  --bs-font-sans-serif: "Inter", sans-serif;
+  --bs-link-color: var(--tf-accent);
+  --tf-pill-bg: var(--bs-black);
+  --tf-icon-fill: var(--tf-accent);
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--bs-white);
+  --tf-navbar-bg-color: var(--tf-blue);
+  --tf-projects-bg-color: var(--tf-blue);
+}
+
+h1 {
+ font-family: "Archivo Black"; 
+}
+
+header, footer {
+ background-color: var(--bs-white);
+}
+
+/* Format social media icons */
+.tf-social {
+  display: inline-block;
+  fill: var(--tf-icon-fill);
+  height: 1.5em;
+  vertical-align: -.1em;
+  width: 1.5em;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Simplify the styling of the bottom of Essay cards. */
+.card-footer {
+  background-color: var(--bs-white);
+  border-top: none;
+}

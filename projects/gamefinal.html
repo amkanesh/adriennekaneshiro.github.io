@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="APCSP Final Project | Adrienne Kaneshiro | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/amkanesh.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Adrienne Kaneshiro | Professional Portfolio">
+    <meta property="og:url" content="https://amkanesh.github.io/projects/gamefinal.html">
+    <meta property="og:title" content="APCSP Final Project | Adrienne Kaneshiro | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/amkanesh.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/custom.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>APCSP Final Project | Adrienne Kaneshiro | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Adrienne Kaneshiro</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">APCSP Final Project</h1>
+ <div class="text-center p-4">
+  <img width="200px" src="../img/apcspfinal/Screenshot_20230202_092324.png" class="img-thumbnail" />
+</div>
+
+<h2 id="overview">Overview</h2>
+
+<p>As part of my AP Computer Science Principles course, we had to make a few projects over the course of the year. This one was my final, in which I made a prototype tower defense game utilizing Processing. The map consists of a grid, and you can move your player character to any one of the squares. Enemies would come in a fixed path, and the character would shoot projectiles at them until their HP reached 0. To place your character, you could select it from the available roster and then click on the space you want them to go. If you changed your mind, you can click any space in the lower roster bar to cancel your selection.</p>
+
+<h2 id="role-and-responsibilities">Role and Responsibilities</h2>
+
+<p>I created this project mostly on my own for my final, with some help from the teacher. We were to submit the final code as well as a screencast explaining the purpose of important chunks of code in our program.</p>
+
+<h2 id="the-takeaways">The Takeaways</h2>
+
+<p>This was my introduction to more complex Java objects and classes. The map was built with a 2d array of objects. It also taught me the virtues of patience; this was probably one of the most frustrating projects I’ve ever worked on, and I ran into many, many hurdles along the way. But with some careful review and a second look from a friend, problems can eventually be solved. Here’s a short excerpt of code that determines if a projectile has hit an enemy:</p>
+
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">boolean</span> <span class="nf">hit</span><span class="p">(</span><span class="n">MapObject</span> <span class="n">enemy</span><span class="p">,</span> <span class="n">Projectile</span> <span class="n">projectile</span><span class="p">)</span> <span class="p">{</span> <span class="c1">//boolean to determine if a projectile has collided with an enemy</span>
+   <span class="n">boolean</span> <span class="n">collided</span><span class="p">;</span> <span class="c1">//boolean to report collisions </span>
+   <span class="kt">float</span> <span class="n">enemyDistance</span> <span class="o">=</span> <span class="n">sqrt</span><span class="p">(</span><span class="n">sq</span><span class="p">(</span><span class="n">enemy</span><span class="p">.</span><span class="n">xPos</span> <span class="o">-</span> <span class="n">projectile</span><span class="p">.</span><span class="n">projXPos</span><span class="p">)</span> <span class="o">+</span> <span class="n">sq</span><span class="p">(</span><span class="n">enemy</span><span class="p">.</span><span class="n">yPos</span> <span class="o">-</span> <span class="n">projectile</span><span class="p">.</span><span class="n">projYPos</span><span class="p">));</span> <span class="c1">//calculates distance from projectile </span>
+   <span class="k">if</span> <span class="p">(</span><span class="n">enemyDistance</span> <span class="o">&lt;</span> <span class="n">enemyDiameter</span><span class="o">/</span><span class="mi">2</span> <span class="o">+</span> <span class="n">diameter</span><span class="o">/</span><span class="mi">2</span><span class="p">)</span> <span class="p">{</span> <span class="c1">//big radius + small radius </span>
+     <span class="n">enemyHP</span> <span class="o">=</span> <span class="n">enemyHP</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span> <span class="c1">//decrease enemy HP by one upon hit  </span>
+     <span class="n">collided</span> <span class="o">=</span> <span class="nb">true</span><span class="p">;</span> <span class="c1">//projectile and enemy have collided </span>
+   <span class="p">}</span> <span class="k">else</span> <span class="p">{</span> 
+     <span class="n">collided</span> <span class="o">=</span> <span class="nb">false</span><span class="p">;</span> <span class="c1">//no collision has occurred otherwise </span>
+   <span class="p">}</span> 
+ <span class="k">return</span> <span class="n">collided</span><span class="p">;</span> <span class="c1">//returns the value of collided </span>
+ <span class="p">}</span> 
+</code></pre></div></div>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
