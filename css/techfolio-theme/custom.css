@@ -5,17 +5,22 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --tf-orange-accent: #E98A15;
-  --tf-green-1: #003B36;
+  --tf-accent: #E98A15;
+  --tf-accent-2: #789576;
+  --tf-green-1: #00524B;
   --tf-green-2: #012622;
   --bs-font-sans-serif: "Bitter", sans-serif;
-  --bs-link-color: var(--tf-orange-accent);
+  --bs-link-color: var(--tf-accent);
   --tf-pill-bg: var(--bs-gray);
-  --tf-icon-fill: var(--bs-gray);
-  --tf-page-bg-color: var(--bs-white);
+  --tf-icon-fill: var(--tf-accent-2);
+  --tf-page-bg-color: var(--tf-green-2);
   --tf-footer-bg-color: var(--tf-green-2);
   --tf-navbar-bg-color: var(--tf-green-2);
   --tf-projects-bg-color: var(--tf-green-1);
+}
+
+h1 {
+ color: white; 
 }
 
 h1,h2,h3,h4 {
