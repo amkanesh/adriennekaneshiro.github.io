@@ -27,7 +27,7 @@ On the "List Recipes" page, users can filter recipes by ingredients and click on
 
 ## Role and Responsibilities
 
-<div>
+<div class="text-center p-4">
   <img width="50%" src="../img/user-profile-page.png">
 </div>
 
