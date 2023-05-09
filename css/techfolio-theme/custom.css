@@ -14,7 +14,7 @@
   --tf-icon-fill: var(--bs-gray);
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--tf-green-2);
-  --tf-header-bg-color: var(--tf-green-2);
+  --tf-navbar-bg-color: var(--tf-green-2);
   --tf-projects-bg-color: var(--tf-green-1);
 }
 
