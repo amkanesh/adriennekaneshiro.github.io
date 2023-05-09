@@ -8,12 +8,13 @@
   --tf-orange-accent: #E98A15;
   --tf-green-1: #003B36;
   --tf-green-2: #012622;
-  --bs-font-sans-serif: "Gothic A1", sans-serif;
+  --bs-font-sans-serif: "Bitter", sans-serif;
   --bs-link-color: var(--tf-orange-accent);
   --tf-pill-bg: var(--bs-gray);
   --tf-icon-fill: var(--bs-gray);
   --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--tf-green-2);
+  --tf-header-bg-color: var(--tf-green-2);
   --tf-projects-bg-color: var(--tf-green-1);
 }
 
@@ -34,4 +35,8 @@ a {
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;
+}
+
+h1 {
+ font: "Archivo Black"; 
 }
