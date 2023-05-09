@@ -10,8 +10,9 @@ labels:
   - Javascript
 ---
 
-<img width="200px" class="rounded float-start pe-4" src="https://eslint.org/assets/images/release-notes-minor-560w.jpeg">
-
+<div class="text-center p-4">
+  <img width="300px" class="rounded pe-4" src="https://eslint.org/assets/images/release-notes-minor-560w.jpeg">
+</div>
 
 ## Great Ideas (That No One Can Read)
 There are many ways to code. The way you see a problem may be different than how your friend does, and there is much to learn from different solutions of the same problem. Let’s say you’re working together with said friend to create a program together. Everything is going all well and good until you take a peek at what they’ve got so far – and you pause.
