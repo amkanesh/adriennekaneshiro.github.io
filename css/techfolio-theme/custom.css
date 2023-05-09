@@ -4,23 +4,24 @@
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
-  --tf-accent: #E98A15;
-  --tf-accent-2: #789576;
-  --tf-green-1: #00524B;
-  --tf-green-2: #012622;
+  --tf-accent: #F0803C;
+  --tf-blue: #ACE0EC;
   --bs-font-sans-serif: "Bitter", sans-serif;
   --bs-link-color: var(--tf-accent);
-  --tf-pill-bg: var(--tf-green-2);
-  --tf-icon-fill: var(--tf-accent-2);
-  --tf-page-bg-color: var(--tf-green-2);
-  --tf-footer-bg-color: var(--tf-green-2);
-  --tf-navbar-bg-color: var(--tf-green-2);
-  --tf-projects-bg-color: var(--tf-green-1);
+  --tf-pill-bg: var(--bs-black);
+  --tf-icon-fill: var(--tf-accent);
+  --tf-page-bg-color: var(--bs-white);
+  --tf-footer-bg-color: var(--bs-white);
+  --tf-navbar-bg-color: var(--tf-blue);
+  --tf-projects-bg-color: var(--tf-blue);
 }
 
 h1 {
  font-family: "Archivo Black"; 
-  color: var(--bs-white);
+}
+
+header, footer {
+ background-color: var(--bs-white);
 }
 
 /* Format social media icons */
