@@ -10,9 +10,10 @@ labels:
   - Answers
   - StackOverflow
 ---
-
-<img width="300px" class="rounded float-start pe-4" src="https://simpleprogrammer.com/wp-content/uploads/2016/11/Bored-PC-1024x576.png">
-
+<div class="text-center p-4">
+  <img width="300px" class="rounded pe-4" src="https://simpleprogrammer.com/wp-content/uploads/2016/11/Bored-PC-1024x576.png">
+</div>
+  
 ## What to do when faced with a problem?
 
 Getting stuck on a problem is normal. Everyone has had some sort of issue they couldn’t solve immediately, especially when learning something new. And extra-especially in Computer Science, where minor errors can sometimes mean major consequences for your entire program. When faced with a vexing problem that can’t be solved even after countless Google searches or read-throughs of the documentation, what is a confused programmer to do? Well, perhaps it’s time to turn to StackOverflow.
