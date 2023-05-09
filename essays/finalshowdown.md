@@ -9,8 +9,10 @@ labels:
   - Software Engineering
   - Design Patterns
 ---
-<img width=200px src="https://media.istockphoto.com/id/148771691/vector/cartoon-boxing-gloves.jpg?s=612x612&w=0&k=20&c=uShuIGwuiBMj8KlcXG3kRuzjSb2T3AcO5aWXZETmzB8=">
-
+<div class="text-center p-4">
+  <img width=200px src="https://media.istockphoto.com/id/148771691/vector/cartoon-boxing-gloves.jpg?s=612x612&w=0&k=20&c=uShuIGwuiBMj8KlcXG3kRuzjSb2T3AcO5aWXZETmzB8=">
+</div>
+  
 ## In the Ring
 Coding, I’ve come to realize, is like a boxing match. 
 
