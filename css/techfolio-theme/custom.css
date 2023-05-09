@@ -1,7 +1,6 @@
 /* Custom Theme: modifies the default theme have a darker palette and changes the fonts. */
 
-@import url("https://fonts.googleapis.com/css?family=Bitter:300,400,500,700|Source+Code+Pro:300,400,500,700");
-@import url("https://fonts.googleapis.com/css?family=Gothic+A1:300,400,500,700|Archivo+Black:300,400,500,700|Source+Code+Pro:300,400,500,700");
+@import url("https://fonts.googleapis.com/css?family=Gothic+A1|Archivo+Black|Source+Code+Pro|Bitter:300,400,500,700");
 
 /* See https://getbootstrap.com/docs/5.2/customize/css-variables/#root-variables for variables to override. */
 :root {
@@ -11,7 +10,7 @@
   --tf-green-2: #012622;
   --bs-font-sans-serif: "Bitter", sans-serif;
   --bs-link-color: var(--tf-accent);
-  --tf-pill-bg: var(--bs-gray);
+  --tf-pill-bg: var(--tf-green-2);
   --tf-icon-fill: var(--tf-accent-2);
   --tf-page-bg-color: var(--tf-green-2);
   --tf-footer-bg-color: var(--tf-green-2);
@@ -20,11 +19,8 @@
 }
 
 h1 {
- color: white; 
-}
-
-h1,h2,h3,h4 {
  font-family: archivo-black; 
+  color: white;
 }
 
 /* Format social media icons */
