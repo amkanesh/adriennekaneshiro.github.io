@@ -19,8 +19,8 @@
 }
 
 h1 {
- font-family: archivo-black; 
-  color: white;
+ font-family: "Archivo Black"; 
+  color: var(--bs-white);
 }
 
 /* Format social media icons */
