@@ -18,6 +18,10 @@
   --tf-projects-bg-color: var(--tf-green-1);
 }
 
+h1,h2,h3,h4 {
+ font: 1.2 em "Archivo Black"; 
+}
+
 /* Format social media icons */
 .tf-social {
   display: inline-block;
@@ -35,8 +39,4 @@ a {
 .card-footer {
   background-color: var(--bs-white);
   border-top: none;
-}
-
-h1 {
- font: "Archivo Black"; 
 }
