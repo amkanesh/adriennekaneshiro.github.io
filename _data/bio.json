@@ -22,7 +22,7 @@
   "skills": [
     {
       "name": "Languages and Frameworks",
-      "keywords": [ "C", "C++", "C#", "Java", "Javascript", "HTML", "CSS", "Meteor", "React", "MongoDB" ]
+      "keywords": [ "C", "C++", "C#", "Python", "SQL", "Java", "Javascript", "HTML", "CSS", "Meteor", "React", "MongoDB" ]
     },
     {
       "name": "Toolsets/OS",
@@ -53,6 +53,19 @@
         "Gain experience and cross-cultural understanding with those from foreign countries"
       ]
     }
+    {
+      "company": "Maruhachi Tent Co.",
+      "position": "Intern",
+      "website": "http://08tent.jp/",
+      "startDate": "2023-07-10",
+      "endDate": "2023-07-21",
+      "summary": "Help the company with their daily affairs and participate in company meetings/events",
+      "highlights": [
+        "Learning Japanese business etiquette",
+        "Present the company's vision and our personal experiences to interested high school students",
+        "Shipping and quality checking products",
+        "Learning process of tent production, including planning stages, construction, and advertisement"
+    }
   ],
   "volunteer": [
     {
@@ -63,7 +76,7 @@
       "endDate": "2016-07-01",
       "summary": "Assist workers + other volunteers in caring for cats at the shelter",
       "highlights": [
-        "Cooperating to tackle cleaning substantial amount of equipment"
+        "Cooperating to tackle cleaning a substantial amount of equipment"
       ]
     }
   ],
